@@ -146,7 +146,7 @@ int cowsay(int argc, char *argv[]) {
     return 0;
 }
 
-MSH_CMD_EXPORT(cowsay, atcmd sample: atcmd <server|client>);
+MSH_CMD_EXPORT(cowsay, a cow saying something.);
 
 void displaycowlist(void) {
     printf("beavis.zen\tBeavis, with Zen philosophy removed.\n\
